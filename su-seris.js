@@ -1,6 +1,6 @@
-function factarialNo(number) {
+function factarialNo(sNumber, number) {
     sum = 0;
-    for (let i = 0; i <= number; i++) {
+    for (let i = sNumber; i <= number; i++) {
         sum += i;
         console.log(sum);
     }
@@ -8,4 +8,4 @@ function factarialNo(number) {
 
 }
 
-factarialNo(20);
+factarialNo(10, 30);

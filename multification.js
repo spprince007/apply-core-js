@@ -1,5 +1,5 @@
 function maltifiCation(startNumber, endNumber) {
-    into1 = startNumber;
+    into1 = 1;
     for (let i = startNumber; i <= endNumber; i++) {
         into1 = into1 * i;
         console.log(into1);
